@@ -8,7 +8,8 @@
 User.create!(name: "Alec Weber",
              email: "aweber@arrayschool.com",
              password: "password",
-             password_confirmation: "password")
+             password_confirmation: "password",
+             admin: true)
 
 99.times do |n|
   name = Faker::Superhero.name
